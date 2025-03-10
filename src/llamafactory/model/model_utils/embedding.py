@@ -16,7 +16,7 @@ import math
 from contextlib import nullcontext
 from typing import TYPE_CHECKING
 
-import torch
+import torch_gcu.torch
 from transformers.integrations import is_deepspeed_zero3_enabled
 
 from ...extras import logging

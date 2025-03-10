@@ -13,7 +13,7 @@
 # limitations under the License.
 
 import pytest
-import torch
+import torch_gcu.torch
 
 from llamafactory.model.model_utils.packing import get_seqlens_in_batch, get_unpad_data
 

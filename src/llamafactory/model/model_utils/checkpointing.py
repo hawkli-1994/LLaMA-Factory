@@ -23,7 +23,7 @@ from functools import WRAPPER_ASSIGNMENTS, partial, wraps
 from types import MethodType
 from typing import TYPE_CHECKING, Any, Callable, Dict, Optional, Tuple, Union
 
-import torch
+import torch_gcu.torch
 
 from ...extras import logging
 from ...extras.constants import LAYERNORM_NAMES
@@ -111,7 +111,7 @@ def _gradient_checkpointing_enable(
 
     Modification of the original method to enable gradient checkpointing for block-wise optimizer.
     """
-    from torch.utils.checkpoint import checkpoint
+    from torch_gcu.torch.utils.checkpoint import checkpoint
 
     if not self.supports_gradient_checkpointing:
         raise ValueError(f"{self.__class__.__name__} does not support gradient checkpointing.")

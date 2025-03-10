@@ -15,7 +15,7 @@
 from types import MethodType
 from typing import TYPE_CHECKING, Any, Dict
 
-import torch
+import torch_gcu.torch
 from peft import PeftModel
 from transformers import PreTrainedModel, PreTrainedTokenizerBase, is_torch_npu_available
 from transformers.integrations import is_deepspeed_zero3_enabled

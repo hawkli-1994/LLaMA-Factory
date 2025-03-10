@@ -21,7 +21,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import timedelta
 from typing import TYPE_CHECKING, Any, Dict, Optional
 
-import torch
+import torch_gcu.torch
 import transformers
 from peft import PeftModel
 from transformers import PreTrainedModel, ProcessorMixin, TrainerCallback

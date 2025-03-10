@@ -16,7 +16,7 @@ import os
 from typing import TYPE_CHECKING, Any, Dict, List, Sequence
 
 import pytest
-import torch
+import torch_gcu.torch
 from PIL import Image
 
 from llamafactory.data.mm_plugin import get_mm_plugin

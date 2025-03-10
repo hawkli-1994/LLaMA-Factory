@@ -21,7 +21,7 @@ from types import MethodType
 from typing import TYPE_CHECKING, Any, Dict, List, Optional, Tuple, Union
 
 import numpy as np
-import torch
+import torch_gcu.torch
 from transformers import Seq2SeqTrainer
 from typing_extensions import override
 
@@ -33,7 +33,7 @@ from ..trainer_utils import create_custom_optimizer, create_custom_scheduler
 
 
 if TYPE_CHECKING:
-    from torch.utils.data import Dataset
+    from torch_gcu.torch.utils.data import Dataset
     from transformers import PreTrainedTokenizer, ProcessorMixin
     from transformers.trainer import PredictionOutput
 

@@ -15,7 +15,7 @@
 from types import MethodType
 from typing import TYPE_CHECKING, Optional
 
-import torch
+import torch_gcu.torch
 from transformers import Trainer
 from typing_extensions import override
 

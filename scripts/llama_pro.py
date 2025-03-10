@@ -21,7 +21,7 @@ from collections import OrderedDict
 from typing import TYPE_CHECKING, Dict
 
 import fire
-import torch
+import torch_gcu.torch
 from huggingface_hub import split_torch_state_dict_into_shards
 from safetensors.torch import save_file
 from tqdm import tqdm

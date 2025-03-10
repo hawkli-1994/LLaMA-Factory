@@ -22,7 +22,7 @@ import warnings
 from types import MethodType
 from typing import TYPE_CHECKING, Any, Dict, List, Optional, Tuple
 
-import torch
+import torch_gcu.torch
 from accelerate.utils import DistributedDataParallelKwargs
 from tqdm import tqdm
 from transformers import GenerationConfig, Trainer, TrainerControl, TrainerState

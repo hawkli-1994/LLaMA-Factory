@@ -42,7 +42,7 @@ import os
 from typing import TYPE_CHECKING, Any, Dict, List, Optional
 
 import numpy as np
-import torch
+import torch_gcu.torch
 from datasets import load_dataset
 from tqdm import tqdm, trange
 from transformers.utils import cached_file

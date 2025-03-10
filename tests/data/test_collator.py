@@ -14,7 +14,7 @@
 
 import os
 
-import torch
+import torch_gcu.torch
 from PIL import Image
 
 from llamafactory.data import get_template_and_fix_tokenizer

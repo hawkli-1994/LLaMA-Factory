@@ -15,7 +15,7 @@
 import re
 from typing import TYPE_CHECKING
 
-import torch
+import torch_gcu.torch
 from peft import LoraConfig, LoraModel, PeftModel, TaskType, get_peft_model
 from transformers.integrations import is_deepspeed_zero3_enabled
 from transformers.modeling_utils import is_fsdp_enabled

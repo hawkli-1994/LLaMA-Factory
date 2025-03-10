@@ -13,7 +13,7 @@
 # limitations under the License.
 
 import pytest
-import torch
+import torch_gcu.torch
 from transformers import AutoConfig, AutoModelForVision2Seq
 
 from llamafactory.hparams import FinetuningArguments, ModelArguments

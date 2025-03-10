@@ -14,7 +14,7 @@
 
 from typing import TYPE_CHECKING, Dict
 
-import torch
+import torch_gcu.torch
 from transformers.utils import cached_file
 
 from ...extras import logging

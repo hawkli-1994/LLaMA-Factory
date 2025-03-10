@@ -14,7 +14,7 @@
 
 import os
 
-import torch
+import torch_gcu.torch
 
 from llamafactory.train.test_utils import load_infer_model, load_train_model
 

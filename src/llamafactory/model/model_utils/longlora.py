@@ -20,8 +20,8 @@
 import math
 from typing import TYPE_CHECKING, Optional, Tuple
 
-import torch
-import torch.nn as nn
+import torch_gcu.torch
+import torch_gcu.torch.nn as nn
 import transformers
 from transformers.models.llama.modeling_llama import Cache, apply_rotary_pos_emb, repeat_kv
 

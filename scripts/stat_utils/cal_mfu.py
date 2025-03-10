@@ -16,8 +16,8 @@ import json
 import os
 
 import fire
-import torch
-import torch.distributed as dist
+import torch_gcu.torch
+import torch_gcu.torch.distributed as dist
 from transformers import AutoConfig
 
 from llamafactory.train.tuner import run_exp

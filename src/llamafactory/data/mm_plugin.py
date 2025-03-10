@@ -7,7 +7,7 @@ from io import BytesIO
 from typing import TYPE_CHECKING, Dict, List, Optional, Sequence, Tuple, Type, TypedDict, Union
 
 import numpy as np
-import torch
+import torch_gcu.torch
 from transformers.image_utils import get_image_size, to_numpy_array
 from typing_extensions import override
 

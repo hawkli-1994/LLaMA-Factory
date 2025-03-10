@@ -16,8 +16,8 @@ import os
 import shutil
 from typing import TYPE_CHECKING, Any, Dict, List, Optional
 
-import torch
-import torch.distributed as dist
+import torch_gcu.torch
+import torch_gcu.torch.distributed as dist
 from transformers import PreTrainedModel
 
 from ..data import get_template_and_fix_tokenizer

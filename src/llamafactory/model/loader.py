@@ -15,7 +15,7 @@
 import os
 from typing import TYPE_CHECKING, Any, Dict, Optional, TypedDict
 
-import torch
+import torch_gcu.torch
 from transformers import (
     AutoConfig,
     AutoModelForCausalLM,

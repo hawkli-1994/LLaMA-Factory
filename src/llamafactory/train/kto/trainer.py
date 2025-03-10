@@ -21,7 +21,7 @@ from contextlib import nullcontext
 from types import MethodType
 from typing import TYPE_CHECKING, Dict, List, Literal, Optional, Tuple, Union
 
-import torch
+import torch_gcu.torch
 from transformers import Trainer
 from trl import KTOTrainer
 from trl.trainer import disable_dropout_in_model
@@ -34,7 +34,7 @@ from ..trainer_utils import create_custom_optimizer, create_custom_scheduler, ge
 
 
 if TYPE_CHECKING:
-    import torch.utils.data
+    import torch_gcu.torch.utils.data
     from transformers import PreTrainedModel, ProcessorMixin
 
     from ...hparams import FinetuningArguments

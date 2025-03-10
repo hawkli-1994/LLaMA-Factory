@@ -15,7 +15,7 @@
 import os
 
 import pytest
-import torch
+import torch_gcu.torch
 
 from llamafactory.extras.misc import get_current_device
 from llamafactory.train.test_utils import load_train_model

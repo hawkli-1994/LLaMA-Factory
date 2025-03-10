@@ -14,7 +14,7 @@
 
 from typing import TYPE_CHECKING, Dict, Optional, Sequence, Set, Tuple, Union
 
-import torch
+import torch_gcu.torch
 from peft import PeftModel
 from transformers import AutoModelForCausalLM
 from trl import AutoModelForCausalLMWithValueHead

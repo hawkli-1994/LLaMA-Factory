@@ -15,7 +15,7 @@
 import os
 
 import pytest
-import torch
+import torch_gcu.torch
 from transformers import AutoConfig, AutoModelForCausalLM
 
 from llamafactory.model.model_utils.misc import find_expanded_modules

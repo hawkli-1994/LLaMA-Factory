@@ -21,7 +21,7 @@ import random
 from enum import Enum, unique
 from typing import TYPE_CHECKING, Any, Dict, List
 
-import torch
+import torch_gcu.torch
 from datasets import load_dataset
 from transformers import BitsAndBytesConfig, EetqConfig, GPTQConfig, HqqConfig
 from transformers.integrations import is_deepspeed_zero3_enabled

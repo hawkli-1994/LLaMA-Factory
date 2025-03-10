@@ -20,7 +20,7 @@ from dataclasses import dataclass
 from typing import TYPE_CHECKING, Dict, Optional
 
 import numpy as np
-import torch
+import torch_gcu.torch
 from transformers.utils import is_jieba_available, is_nltk_available
 
 from ...extras.constants import IGNORE_INDEX

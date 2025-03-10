@@ -14,7 +14,7 @@
 
 from typing import TYPE_CHECKING, Sequence
 
-import torch
+import torch_gcu.torch
 from transformers.integrations import is_deepspeed_zero3_enabled
 
 from ...extras.misc import check_version

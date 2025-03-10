@@ -19,8 +19,8 @@ from dataclasses import dataclass
 from typing import TYPE_CHECKING, Any, Dict, Literal, Optional, Sequence
 
 import numpy as np
-import torch
-import torch.nn.functional as F
+import torch_gcu.torch
+import torch_gcu.torch.nn.functional as F
 from transformers import DataCollatorForSeq2Seq
 
 from ..extras.constants import AUDIO_PLACEHOLDER, IGNORE_INDEX, IMAGE_PLACEHOLDER

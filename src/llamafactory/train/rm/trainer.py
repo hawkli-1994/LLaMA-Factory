@@ -20,7 +20,7 @@ import os
 from types import MethodType
 from typing import TYPE_CHECKING, Dict, List, Optional, Tuple, Union
 
-import torch
+import torch_gcu.torch
 from transformers import Trainer
 from typing_extensions import override
 

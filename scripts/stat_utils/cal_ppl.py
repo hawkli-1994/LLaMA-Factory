@@ -17,8 +17,8 @@ from dataclasses import dataclass
 from typing import Any, Dict, Literal, Optional, Sequence
 
 import fire
-import torch
-from torch.utils.data import DataLoader
+import torch_gcu.torch
+from torch_gcu.torch.utils.data import DataLoader
 from tqdm import tqdm
 from transformers import DataCollatorForLanguageModeling
 

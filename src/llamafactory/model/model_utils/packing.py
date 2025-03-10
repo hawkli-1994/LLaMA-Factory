@@ -39,8 +39,8 @@
 
 from typing import TYPE_CHECKING, Tuple
 
-import torch
-import torch.nn.functional as F
+import torch_gcu.torch
+import torch_gcu.torch.nn.functional as F
 
 from ...extras import logging
 from ...extras.misc import check_version

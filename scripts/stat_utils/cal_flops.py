@@ -16,7 +16,7 @@
 # limitations under the License.
 
 import fire
-import torch
+import torch_gcu.torch
 from deepspeed.accelerator import get_accelerator  # type: ignore
 from deepspeed.profiling.flops_profiler import get_model_profile  # type: ignore
 

@@ -15,7 +15,7 @@
 import os
 
 import pytest
-import torch
+import torch_gcu.torch
 
 from llamafactory.train.test_utils import (
     check_lora_model,

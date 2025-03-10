@@ -21,8 +21,8 @@ from contextlib import nullcontext
 from types import MethodType
 from typing import TYPE_CHECKING, Dict, List, Literal, Optional, Tuple, Union
 
-import torch
-import torch.nn.functional as F
+import torch_gcu.torch
+import torch_gcu.torch.nn.functional as F
 from transformers import Trainer
 from trl import DPOTrainer
 from trl.trainer import disable_dropout_in_model

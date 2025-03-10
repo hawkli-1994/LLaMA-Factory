@@ -18,7 +18,7 @@ import os
 from threading import Thread
 from typing import TYPE_CHECKING, Any, AsyncGenerator, Callable, Dict, List, Optional, Sequence, Tuple, Union
 
-import torch
+import torch_gcu.torch
 from transformers import GenerationConfig, TextIteratorStreamer
 from typing_extensions import override
 

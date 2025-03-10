@@ -18,7 +18,7 @@
 from dataclasses import dataclass
 from typing import TYPE_CHECKING, Dict, List, Optional, Sequence, Set, Tuple
 
-import torch
+import torch_gcu.torch
 import transformers
 import transformers.models
 from transformers.activations import ACT2FN
